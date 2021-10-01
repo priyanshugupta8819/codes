@@ -1,6 +1,6 @@
 #guessing game
 import random as rn 
-correct_number = rn.randrange(1,10,1)
+correct_number = rn.randrange(1,20,1)
 
 def check_wrong(input_number, correct_number, count):
     if(input_number > correct_number):
@@ -16,7 +16,7 @@ def check_wrong(input_number, correct_number, count):
 count = 0
 
 while(count<4):
-    input_number = int(input("Please enter your guess: "))
+    input_number = int(input("Please enter your guess upto 20: "))
 
     if(input_number == correct_number):
         print("You've guessed correct number")
