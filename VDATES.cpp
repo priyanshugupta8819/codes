@@ -2,6 +2,8 @@
 using namespace std;
 int main(){
     int n,d,l,r;
+    int ak;
+    
     cout<<"Enter n :";
     cin>>n;
     
