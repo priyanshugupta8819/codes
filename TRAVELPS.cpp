@@ -2,28 +2,28 @@
 using namespace std;
 
 int main(){
-    int n;
-    cin>>n;
+    int x;
+    cin>>x;
     
-    while(n--){
+    while(x--){
         int t, a, b;
         cin>>t>>a>>b;
         
         char s[t+1];
         cin>>s;
-        int i=0, temp=0;
+        int i=0, t=0;
         for(i=0;i<t;i++){
             
             if(s[i] == '0'){
-                temp = temp + a;
+                t = t + a;
             }
             else{
-                temp = temp + b;
+                t = t + b;
             }
             
         }
         
-        cout<<temp<<endl;
+        cout<<t<<endl;
     }
     
     return 0;
