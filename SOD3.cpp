@@ -3,8 +3,8 @@
 using namespace std;
 
 ll func(){
-    ll l;
-    ll r;
+    ll l,r;
+    cout<<"Enter ends :";
     cin>>l>>r;
     
     for(int i=0;i<3;i++){
@@ -41,4 +41,3 @@ int main(){
     
     return 0;
 }
-S
