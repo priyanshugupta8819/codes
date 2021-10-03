@@ -1,5 +1,6 @@
 #include<bits/stdc++.h>
 using namespace std;
+//no
 int main(){
     int n = 5;
     int arr[] = {2,3,2,2,2};
