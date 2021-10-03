@@ -1,4 +1,5 @@
 #guessing game
+#getting better
 import random as rn 
 correct_number = rn.randrange(1,20,1)
 
