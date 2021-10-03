@@ -1,4 +1,6 @@
 #include<bits/stdc++.h>
+#define ll long long int
+#define max 5
 using namespace std;
 int algo(int n, int arr[]){
     int arrSum[n];
