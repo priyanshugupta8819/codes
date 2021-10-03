@@ -1,13 +1,11 @@
 #include<bits/stdc++.h>
 using namespace std;
 int main(){
-    int n;
+    int n,d,l,r;
+    cout<<"Enter n :";
     cin>>n;
     
-    for(int i=0;i<n;i++){
-        int d, l, r;
-        cin>>d>>l>>r;
-        
+    for(int i=1;i<=n;i++){        
         if(d >= l && d<=r){
             cout<<"Take second dose now\n";
         }
@@ -18,7 +16,6 @@ int main(){
             cout<<"Too Early\n";
         }
         
-    }
-    
+    }    
     return 0;
 }
