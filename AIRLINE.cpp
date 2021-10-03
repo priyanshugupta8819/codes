@@ -4,6 +4,7 @@ using namespace std;
 int main() {
 	int n;
 	int m;
+	int o;
 	cin>>n;
 	
 	while(n--){
